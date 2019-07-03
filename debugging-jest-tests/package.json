@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "This recipe shows how to use the built-in Node Debugger to debug Jest tests",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Jag Reehal",
   "license": "ISC",
   "dependencies": {
-    "jest": "22.0.4"
+    "jest": "22.0.4",
+    "snyk": "^1.189.0"
   },
   "jest": {
     "testEnvironment": "node"
-  }
+  },
+  "snyk": true
 }
