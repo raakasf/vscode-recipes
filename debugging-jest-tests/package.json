@@ -8,7 +8,7 @@
   "author": "Jag Reehal",
   "license": "ISC",
   "dependencies": {
-    "jest": "22.0.4"
+    "jest": "22.4.4"
   },
   "jest": {
     "testEnvironment": "node"
